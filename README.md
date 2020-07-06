@@ -10,7 +10,11 @@ Tweets were downloaded using [TweetScrappingScript](), users' location using [](
 
 Dataset-1 Attributes: ID, text, anger, anticipation, disgust, fear, joy, love, optimism, pessimism, sadness, surprise, trust
 
-Dataset-2 Attributes: status_id, user_id, date, time, text, is_quote, display_text_width, favorite_count, retweet_count, hashtags, symbols, lang, location, lat, long
+Dataset-2 Attributes: status_id, user_id, date, time, text, is_quote, display_text_width, favorite_count, retweet_count, hashtags, symbols, lang, anger, anticipation, disgust, fear, joy, love, optimism, pessimism, sadness, surprise, trust 
+
+After training and testing our models [LabelingDataset]() was used to to label and implement emotional analysis.
+
+Labeling Data: status_id, user_id, date, time, text, is_quote, display_text_width, favorite_count, retweet_count, hashtags, symbols, lang, location, lat, long, anger, anticipation, disgust, fear, joy, love, optimism, pessimism, sadness, surprise, trust
 
 
 You can find the complete dataset used for this research purpose [here](https://drive.google.com/drive/folders/1WLDUF-SOPVk6RwuhqgR2XRwnbrWng8mo?usp=sharing)
