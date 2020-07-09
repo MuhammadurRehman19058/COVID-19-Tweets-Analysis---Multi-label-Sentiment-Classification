@@ -58,8 +58,10 @@ using [User Data](Codes/Twitter%20User%20Data%20Downloading.ipynb) and merged wi
 
 - Dataset-2 Attributes:
 
-    | ID       | text           |
-    |:---------|:---------------|
+    | ID       | text           |anger| disgust|anticipation|fear|
+    |:---------|:---------------|:---------------|:---------------|:---------------|:---------------|
+    |joy|optimism|love|pessimism|sadness|trust|surprise|
+    |sadness|trust|surprise|trust||||
 
     Table 2: Dataset-1 Attributes
 
