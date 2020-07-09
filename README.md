@@ -44,35 +44,42 @@ variants of "sarscov2", "nCov", "covid-19", "ncov2019", "2019ncov",
 "flatten(ing) the curve", "social distancing", "work(ing) from home" and
 the respective hashtag of all these keywords.
 
-Tweets were downloaded using [TweetScrappingScript](), users' location
-using []() and text pre-processed using [Tweet Text Pre-Processor]()
+Tweets were downloaded using [TweetScrappingScript](Codes/TweetScrappingScript.R), users' location
+using []() and merged with dataset using [Location Merger](Codes/Location%20Merger.R) and text pre-processed using [Tweet Text Pre-Processor]()
 
-Dataset-1 Attributes: status_id, user_id, date, time, text, is_quote,
-display_text_width, favorite_count, retweet_count, hashtags, symbols,
-lang, anger, anticipation, disgust, fear, joy, love, optimism,
-pessimism, sadness, surprise, trust
+Dataset-1 Attributes:
 
 | tweet_id           | user_id        | date          | time     | is_qoute | text    |
 |:-------------------|:---------------|:--------------|:---------|:---------|:--------|
 | display_text_width | favorite_count | retweet_count | hashtags | lang     | symbols |
-| location           | lat            | long          |          |          |         |
+| location           | lat            | long          | location | lat      | long    |
+Table 1: Dataset-1 Attributes
 
-Dataset-2 Attributes: ID, text, anger, anticipation, disgust, fear, joy,
-love, optimism, pessimism, sadness, surprise, trust
+Dataset-2 Attributes:
 
-|    |
-|:---|
-|    |
+| ID       | text           |
+|:---------|:---------------|
+Table 2: Dataset-1 Attributes
 
+Dataset-1 was divided into two part one for training/testing and second for labeling by trained models (24185 Tweet samples). Sized of Datasets used for training and testing the models are as below:
+
+| Dataset size | Train | Validate | Test |
+|:-------------|:------|:---------|:-----|
+| Dataset-1    | 4937  | 1064     | 1085 |
+| Dataset-2    | 6938  | 886      | 3259 |
+Table 3: Datasets split sizes
+
+Dataset-1 and dataset-2 Labeled and Predicting Emotions for both datasets are as below:
+
+| anger   | disgust  | anticipation | fear      |
+|:--------|:---------|:-------------|:----------|
+| joy     | optimism | love         | pessimism |
+| sadness | trust    | surprise     | trust     |
+Table 4: Labeled and Predicting Emotions
 
 After training and testing our models usded
 [LabelingDataset](https://drive.google.com/file/d/15zxJxv2vvw0aPIn7YkeTddABrX0htadZ/view?usp=sharing)
 to classify the emotions of the Tweets.
-
-Labeling Data: status_id, user_id, date, time, text, is_quote,
-display_text_width, favorite_count, retweet_count, hashtags, symbols,
-lang, location, lat, long, anger, anticipation, disgust, fear, joy,
-love, optimism, pessimism, sadness, surprise, trust
 
 
 You can find the complete dataset used for this research purpose
@@ -105,9 +112,7 @@ it performed too slow) and PyTorch (in which it performed faster) both.
 | BOW  | 0.109         | 0.166     | 0.063  | 0.092    | 0.65              | 0.176    |
 | LSTM | 0.121         | 0.152     | 0.205  | 0.175    | 0.443             | 0.548    |
 | BERT | 0.379         | 0.166     | 0.391  | 0.526    | 0.70              | 0.873    |
-
-Table 2: Results of Evaluation Metrics for our implementations on our
-COVID-19 Tweets Dataset
+Table 5: Results of Evaluation Metrics for our implementations on our COVID-19 Tweets Dataset
 
 ### Tweets Emotional Analysis
 
