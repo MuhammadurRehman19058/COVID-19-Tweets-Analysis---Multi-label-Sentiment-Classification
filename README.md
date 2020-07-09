@@ -45,7 +45,7 @@ variants of "sarscov2", "nCov", "covid-19", "ncov2019", "2019ncov",
 the respective hashtag of all these keywords.
 
 Tweets were downloaded using [TweetScrappingScript](Codes/TweetScrappingScript.R), users' location
-using [User Data]() and merged with dataset using [Location Merger](Codes/Location%20Merger.R) and text pre-processed using [Tweet Text Pre-Processor]()
+using [User Data](Codes/Twitter%20User%20Data%20Downloading.ipynb) and merged with dataset using [Location Merger](Codes/Location%20Merger.R) and text pre-processed using [Tweet Text Pre-Processor](Codes/Tweet%20Text%20Pre-Processor.ipynb)
 
 - Dataset-1 Attributes:
 
