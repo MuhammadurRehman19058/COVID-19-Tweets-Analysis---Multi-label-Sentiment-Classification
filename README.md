@@ -34,7 +34,7 @@ Two datasets have been used for this research purpose
   [CORONAVIRUS (COVID-19) TWEETS DATASET](https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
 
 - Dataset-2 ->
-  [SemEval](http://saifmohammad.com/WebDocs/AIT-2018/AIT2018-DATA/SemEval2018-Task1-all-data.zip)
+  [Sem Eval Task 1 Dataset](http://saifmohammad.com/WebDocs/AIT-2018/AIT2018-DATA/SemEval2018-Task1-all-data.zip)
 
 
 Dataset-1 Tweets-ID has been published, related to Covid 19, filtered on
@@ -139,55 +139,49 @@ Table 7: Classification Report for our implementations on the SemEval – Task 1
 ### Tweets Emotional Analysis
 
 
-![](Images/3.JPG)
-
+<img src = "Images/3.JPG"  width="400" height="400" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 1: Frequent locating regions that appear to directly affect the predicted emotions.
+</p>
 
 
-
-![](Images/2.png)
-
+<img src = "Images/2.PNG"  width="400" height="400" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 2: Correlation Matrix of the Predicted Emotion Labels from the BERT model.
+</p>
 
 
-
-![](Images/1.png)
+<img src = "Images/1.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 3: Occurrence of Emotion Labels in the BERT model.
+</p>
 
-
-
-![](Images/4.png)
-
+<img src = "Images/4.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 4: Top 10 Word Occurrences in the tweets of the COVID-19 Tweets Dataset.
+</p>
 
-
-
-![](Images/5.png)
-
+<img src = "Images/5.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 5: Comparison of Iran and Pakistan with respect to each emotion and event of date present in the COVID-19 Tweets Dataset
 
-
-
-![](Images/6.png)
-
+<img src = "Images/6.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 6a: Comparison of each emotion overall relevant to dates present in the COVID-19 Tweets Dataset
+</p>
 
-
-
-![](Images/7.png)
-
+<img src = "Images/7.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 6b: Interpolated comparison of each emotion overall relevant to dates present in the COVID-19 Tweets Dataset.
+</p>
 
-
-
-![](Images/8.png)
-
+<img src = "Images/8.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 7: Comparison of each positive emotion with each negative emotion relevant to dates present in the COVID-19 Tweets Dataset
+</p>
 
-
-
-![](Images/9.PNG)
-
+<img src = "Images/9.PNG"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<p style="text-align: center;">
 Figure 8: A fragment of the World Map depicting clusters of emotions with intensity
-
+</p>
 
