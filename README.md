@@ -119,5 +119,18 @@ it performed too slow) and PyTorch (in which it performed faster) both.
 
 Table 5: Results of Evaluation Metrics for our implementations on our COVID-19 Tweets Dataset
 
+|      | Jaccard Index | Precision | Recall | F1 Score | Focal Loss | Accuracy |
+|:-----|:--------------|:----------|:-------|:---------|:-----------|:---------|
+| BOW  | 0.430         | 0.584     | 0.538  | 0.092    | 0.655      | 0.146    |
+| LSTM | 0.367         | 0.403     | 0.591  | 0.175    | 0.630      | 0.679    |
+| BERT | 0.370         | 0.806     | 0.391  | 0.526    | 0.413      | 0.828    |
+
+Table 5: Results of Evaluation Metrics for our implementations on the SemEval – Task 1 Dataset
+
+Classification Report for our implementations on the SemEval – Task 1 Dataset
+
+| ![](Images/BOWClassificationReport.PNG) | ![](Images/LSTMClassificationReport.PNG) | ![](Images/bertClassificationReport.PNG) |
+|:----------------------------------------|:-----------------------------------------|:-----------------------------------------|
+
 ### Tweets Emotional Analysis
 
