@@ -63,7 +63,7 @@ using [User Data](Codes/Twitter%20User%20Data%20Downloading.ipynb) and merged wi
     |joy|optimism|love|pessimism|sadness|trust|surprise|
     |sadness|trust|surprise|trust||||
 
-    Table 2: Dataset-1 Attributes
+    Table 2: Dataset-2 Attributes
 
 Dataset-1 was divided into two part one for training/testing and second for labeling by trained models (24185 Tweet samples). Sized of Datasets used for training and testing the models are as below:
 
