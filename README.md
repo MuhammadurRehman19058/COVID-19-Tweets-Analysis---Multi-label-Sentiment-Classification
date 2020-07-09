@@ -45,23 +45,23 @@ variants of "sarscov2", "nCov", "covid-19", "ncov2019", "2019ncov",
 the respective hashtag of all these keywords.
 
 Tweets were downloaded using [TweetScrappingScript](Codes/TweetScrappingScript.R), users' location
-using []() and merged with dataset using [Location Merger](Codes/Location%20Merger.R) and text pre-processed using [Tweet Text Pre-Processor]()
+using [User Data]() and merged with dataset using [Location Merger](Codes/Location%20Merger.R) and text pre-processed using [Tweet Text Pre-Processor]()
 
-Dataset-1 Attributes:
+- Dataset-1 Attributes:
 
-| tweet_id           | user_id        | date          | time     | is_qoute | text    |
-|:-------------------|:---------------|:--------------|:---------|:---------|:--------|
-| display_text_width | favorite_count | retweet_count | hashtags | lang     | symbols |
-| location           | lat            | long          | location | lat      | long    |
+    | tweet_id           | user_id        | date          | time     | is_qoute | text    |
+    |:-------------------|:---------------|:--------------|:---------|:---------|:--------|
+    | display_text_width | favorite_count | retweet_count | hashtags | lang     | symbols |
+    | location           | lat            | long          | location | lat      | long    |
 
-Table 1: Dataset-1 Attributes
+    Table 1: Dataset-1 Attributes
 
-Dataset-2 Attributes:
+- Dataset-2 Attributes:
 
-| ID       | text           |
-|:---------|:---------------|
+    | ID       | text           |
+    |:---------|:---------------|
 
-Table 2: Dataset-1 Attributes
+    Table 2: Dataset-1 Attributes
 
 Dataset-1 was divided into two part one for training/testing and second for labeling by trained models (24185 Tweet samples). Sized of Datasets used for training and testing the models are as below:
 
