@@ -191,3 +191,4 @@ Figure 7: Comparison of each positive emotion with each negative emotion relevan
 Figure 8: A fragment of the World Map depicting clusters of emotions with intensity
 </p>
 
+For further details, please read the project [Report](Report/G1H_report_COVID-19%20Tweets%20Analysis.pdf)
