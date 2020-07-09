@@ -127,10 +127,14 @@ Table 5: Results of Evaluation Metrics for our implementations on our COVID-19 T
 
 Table 5: Results of Evaluation Metrics for our implementations on the SemEval – Task 1 Dataset
 
-Classification Report for our implementations on the SemEval – Task 1 Dataset
 
-| ![](Images/BOWClassificationReport.PNG) | ![](Images/LSTMClassificationReport.PNG) | ![](Images/bertClassificationReport.PNG) |
-|:----------------------------------------|:-----------------------------------------|:-----------------------------------------|
+| LSTM                                     | BOW                                     | BERT                                     |
+|:-----------------------------------------|:----------------------------------------|:-----------------------------------------|
+| ![](Images/LSTMClassificationReport.PNG) | ![](Images/BOWClassificationReport.PNG) | ![](Images/bertClassificationReport.PNG) |
+
+Table 6: Classification Report for our implementations on the SemEval – Task 1 Dataset
+
+
 
 ### Tweets Emotional Analysis
 
