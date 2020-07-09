@@ -145,7 +145,7 @@ Figure 1: Frequent locating regions that appear to directly affect the predicted
 </p>
 
 
-<img src = "Images/2.PNG"  width="400" height="400" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
+<img src = "Images/2.png"  width="400" height="400" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
 Figure 2: Correlation Matrix of the Predicted Emotion Labels from the BERT model.
 </p>
