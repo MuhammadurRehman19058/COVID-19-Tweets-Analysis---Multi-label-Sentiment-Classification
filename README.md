@@ -156,19 +156,24 @@ Figure 2: Correlation Matrix of the Predicted Emotion Labels from the BERT model
 Figure 3: Occurrence of Emotion Labels in the BERT model.
 </p>
 
+
 <img src = "Images/4.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
 Figure 4: Top 10 Word Occurrences in the tweets of the COVID-19 Tweets Dataset.
 </p>
 
+
 <img src = "Images/5.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
 Figure 5: Comparison of Iran and Pakistan with respect to each emotion and event of date present in the COVID-19 Tweets Dataset
+</p>
+
 
 <img src = "Images/6.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
 Figure 6a: Comparison of each emotion overall relevant to dates present in the COVID-19 Tweets Dataset
 </p>
+
 
 <img src = "Images/7.png"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
@@ -179,6 +184,7 @@ Figure 6b: Interpolated comparison of each emotion overall relevant to dates pre
 <p style="text-align: center;">
 Figure 7: Comparison of each positive emotion with each negative emotion relevant to dates present in the COVID-19 Tweets Dataset
 </p>
+
 
 <img src = "Images/9.PNG"  width="600" height="300" align = "center" style="display:block;float:none;margin-left:auto;margin-right:auto;">
 <p style="text-align: center;">
