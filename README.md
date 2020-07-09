@@ -140,28 +140,54 @@ Table 7: Classification Report for our implementations on the SemEval – Task 1
 
 
 ![](Images/3.JPG)
+
 Figure 1: Frequent locating regions that appear to directly affect the predicted emotions.
 
+
+
 ![](Images/2.png)
+
 Figure 2: Correlation Matrix of the Predicted Emotion Labels from the BERT model.
+
+
 
 ![](Images/1.png)
 Figure 3: Occurrence of Emotion Labels in the BERT model.
 
+
+
 ![](Images/4.png)
+
 Figure 4: Top 10 Word Occurrences in the tweets of the COVID-19 Tweets Dataset.
 
+
+
 ![](Images/5.png)
+
 Figure 5: Comparison of Iran and Pakistan with respect to each emotion and event of date present in the COVID-19 Tweets Dataset
 
+
+
 ![](Images/6.png)
+
 Figure 6a: Comparison of each emotion overall relevant to dates present in the COVID-19 Tweets Dataset
 
+
+
 ![](Images/7.png)
+
 Figure 6b: Interpolated comparison of each emotion overall relevant to dates present in the COVID-19 Tweets Dataset.
 
+
+
 ![](Images/8.png)
+
 Figure 7: Comparison of each positive emotion with each negative emotion relevant to dates present in the COVID-19 Tweets Dataset
 
+
+
 ![](Images/9.PNG)
+
 Figure 8: A fragment of the World Map depicting clusters of emotions with intensity
+
+
