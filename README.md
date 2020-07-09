@@ -53,12 +53,14 @@ Dataset-1 Attributes:
 |:-------------------|:---------------|:--------------|:---------|:---------|:--------|
 | display_text_width | favorite_count | retweet_count | hashtags | lang     | symbols |
 | location           | lat            | long          | location | lat      | long    |
+
 Table 1: Dataset-1 Attributes
 
 Dataset-2 Attributes:
 
 | ID       | text           |
 |:---------|:---------------|
+
 Table 2: Dataset-1 Attributes
 
 Dataset-1 was divided into two part one for training/testing and second for labeling by trained models (24185 Tweet samples). Sized of Datasets used for training and testing the models are as below:
@@ -67,6 +69,7 @@ Dataset-1 was divided into two part one for training/testing and second for labe
 |:-------------|:------|:---------|:-----|
 | Dataset-1    | 4937  | 1064     | 1085 |
 | Dataset-2    | 6938  | 886      | 3259 |
+
 Table 3: Datasets split sizes
 
 Dataset-1 and dataset-2 Labeled and Predicting Emotions for both datasets are as below:
@@ -75,6 +78,7 @@ Dataset-1 and dataset-2 Labeled and Predicting Emotions for both datasets are as
 |:--------|:---------|:-------------|:----------|
 | joy     | optimism | love         | pessimism |
 | sadness | trust    | surprise     | trust     |
+
 Table 4: Labeled and Predicting Emotions
 
 After training and testing our models usded
@@ -112,6 +116,7 @@ it performed too slow) and PyTorch (in which it performed faster) both.
 | BOW  | 0.109         | 0.166     | 0.063  | 0.092    | 0.65              | 0.176    |
 | LSTM | 0.121         | 0.152     | 0.205  | 0.175    | 0.443             | 0.548    |
 | BERT | 0.379         | 0.166     | 0.391  | 0.526    | 0.70              | 0.873    |
+
 Table 5: Results of Evaluation Metrics for our implementations on our COVID-19 Tweets Dataset
 
 ### Tweets Emotional Analysis
