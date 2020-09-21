@@ -27,6 +27,8 @@ were able to achieve an accuracy rate of 82% and 87% respectively with
 optimal individual loss functionalities for the task using a BERT-base
 uncased model tuned to certain parameter settings.
 
+### Website 
+Please find the project blog using this [Link](https://muhrehman1996.wixsite.com/covid19tweetclassify)
 ### Dataset
 
 Two datasets have been used for this research purpose
