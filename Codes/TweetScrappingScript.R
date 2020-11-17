@@ -23,10 +23,10 @@ library(tidyr)
 
 ## Keys to use for accessing Twitter's tweets:
 
-api_key <- "nePjQl3zhSp5qTi6q3eMQv0Mc"
-api_secret_key <- "zdZdMotO5yya9FATGtKbF1aE5isDfXGuVwuqrsUvRnBaTzXtH7"
-access_token <- "1978505803-lKwYoTJmF9N5l9YN2YNiW85wYq0LdAAT5FB5wD5"
-access_token_secret <- "eUkHQDuwm2FWWb6MRO9EHRvbCEKEnMngKutZMCq7cczQF"
+api_key <- ""
+api_secret_key <- ""
+access_token <- ""
+access_token_secret <- ""
 
 
 ## Authentication via Web Browser:
